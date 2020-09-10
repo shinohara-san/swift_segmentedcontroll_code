@@ -13,6 +13,10 @@
 		95CB02F72509B5D60010BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CB02F52509B5D60010BABC /* Main.storyboard */; };
 		95CB02F92509B5DB0010BABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB02F82509B5DB0010BABC /* Assets.xcassets */; };
 		95CB02FC2509B5DB0010BABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CB02FA2509B5DB0010BABC /* LaunchScreen.storyboard */; };
+		95CB03042509BAAB0010BABC /* Sample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB03032509BAAB0010BABC /* Sample1ViewController.swift */; };
+		95CB03062509BAC60010BABC /* Sample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB03052509BAC60010BABC /* Sample2ViewController.swift */; };
+		95CB030C2509C83C0010BABC /* Sample3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB030B2509C83C0010BABC /* Sample3ViewController.swift */; };
+		95CB030E2509C8580010BABC /* Sample4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB030D2509C8580010BABC /* Sample4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		95CB02F82509B5DB0010BABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CB02FB2509B5DB0010BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95CB02FD2509B5DB0010BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CB03032509BAAB0010BABC /* Sample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1ViewController.swift; sourceTree = "<group>"; };
+		95CB03052509BAC60010BABC /* Sample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2ViewController.swift; sourceTree = "<group>"; };
+		95CB030B2509C83C0010BABC /* Sample3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3ViewController.swift; sourceTree = "<group>"; };
+		95CB030D2509C8580010BABC /* Sample4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				95CB02F82509B5DB0010BABC /* Assets.xcassets */,
 				95CB02FA2509B5DB0010BABC /* LaunchScreen.storyboard */,
 				95CB02FD2509B5DB0010BABC /* Info.plist */,
+				95CB03032509BAAB0010BABC /* Sample1ViewController.swift */,
+				95CB03052509BAC60010BABC /* Sample2ViewController.swift */,
+				95CB030B2509C83C0010BABC /* Sample3ViewController.swift */,
+				95CB030D2509C8580010BABC /* Sample4ViewController.swift */,
 			);
 			path = segmented_control_test;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CB030C2509C83C0010BABC /* Sample3ViewController.swift in Sources */,
+				95CB030E2509C8580010BABC /* Sample4ViewController.swift in Sources */,
+				95CB03042509BAAB0010BABC /* Sample1ViewController.swift in Sources */,
 				95CB02F42509B5D60010BABC /* ViewController.swift in Sources */,
+				95CB03062509BAC60010BABC /* Sample2ViewController.swift in Sources */,
 				95CB02F02509B5D60010BABC /* AppDelegate.swift in Sources */,
 				95CB02F22509B5D60010BABC /* SceneDelegate.swift in Sources */,
 			);
